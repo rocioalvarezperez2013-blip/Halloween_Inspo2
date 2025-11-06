@@ -1,0 +1,53 @@
+.ConAmigas{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 200px;
+    gap: 100px;
+    border-radius: 10px;
+ 
+}
+
+body{
+    background-color: pink;
+}
+
+
+h1,h2,h3,h4{
+    
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Individuales{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 200px;
+      gap: 100px;
+      border-radius: 10px;
+}
+
+.EnFamilia{
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline ;
+  width: 200px;
+  gap: 100px;
+  border-radius: 10px;
+
+
+}
+
+.Makeup{
+ display: flex;
+ justify-content: space-around;
+ align-items: last baseline;
+ width: 200px;
+ gap: 100px;
+ border-radius: 
+}
+ 
+@media(min-width:768px){background-color: ;}
